@@ -14,10 +14,10 @@
     <center><form  action="index.jsp" method="post" style=" padding: 20px;background-color: antiquewhite; width: 400px; border-radius: 5%;border: 2px solid gray;";>
         <center style="margin-top: 50px;">
           <div style="margin-top: 30px;">
-            <label>Number 1 </label>
-          <input class="form-control" type="text" placeholder="Enter value"  name="num1"> 
+            <label for="o">Number 1 </label>
+          <input class="form-control" id="o" type="text" placeholder="Enter value"  name="num1"> 
           </div><br><br>
-          <label>Number 2 </label><input class="form-control" type="text" placeholder="Enter value"  name="num2"><br><br>
+          <label for="p">Number 2 </label><input id="p" class="form-control" type="text" placeholder="Enter value"  name="num2"><br><br>
           
           <button class="btn btn-outline-danger" type="submit" name="operation" value="add">Addition</button>
           <button class="btn btn-outline-success" type="submit" name="operation" value="sub">Subtraction</button>  <br><br> 
